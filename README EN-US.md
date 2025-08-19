@@ -121,28 +121,41 @@ whoami: basically a “who am I” in Linux — in this specific case, it shows 
 
 pwd: shows the directory path — in this case C:\Users\Administrator\Downloads.
 
+<add image>
+
 netstat: displays the connections currently occurring on the remote system.
 
 ps -T: identifies the processes running on the remote system in a “tree” format.
+<add image>
 
 – Going back to the Sensors part
 
 rocesses in the LimaCharlie section – shows the processes running in the LimaCharlie environment.
+<add image>
 
 Now that a “suspicious” process has been found: MARKED_REVIEW.exe
+<add image>
 
 Connection established with the program MARKED_REVIEW.exe, including the base connection and the destination.
+<add image>
 
 Next, following the line of “viewing network connections.”
+<add image>
 
 Network – list of connections made, including connections between suspicious files.
+<add image>
 
 File System – lists the files on the computer, allowing an easy path to locate them.
+<add image>
 
 Scan on VirusTotal to check if there is any process similar or identical, to see if there is a solution for a potential old or documented malware.
+<add image>
 
 Hash – ba39c9077470488fed6f7bd37f9539010d6c5b852bb658309b98116edcaf326c
+<add image>
 
 Since in this case there is no match, a new detection and response rule needs to be created.
+<add image>
 
 Telemetry – real-time data collection and analysis, enabling the creation of defense and detection rules.
+<add image>
