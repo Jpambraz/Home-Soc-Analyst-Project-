@@ -1,4 +1,4 @@
-# Home-Soc-Analyst-Project-
+# Home-Soc-Analyst-Project- Need to edit this whole thing and add some images
 -A simple setup to make a Security Operation Center, Using Both Ubuntu and win11
 
 
