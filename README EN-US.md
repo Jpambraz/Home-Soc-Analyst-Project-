@@ -32,8 +32,7 @@ It is a platform of SecOps based in cloud with the focus being EDX/XDR *detectio
 <img width="612" height="562" alt="65" src="https://github.com/user-attachments/assets/03c441c0-0509-4a66-a805-9c0772ac45ce" />
 
 -Sensors 
--Main fonts of receiving data on LimaCharlie, operating through many plataforms that are compatible and sending events in JSON throught the cloud of LimaCharlie live. (Change Later).
-<img width="895" height="676" alt="63" src="https://github.com/user-attachments/assets/8508d825-673b-4003-8794-e438b1241fe5" />
+-Main fonts of receiving data on LimaCharlie, operating through many plataforms that are compatible and sending events in JSON throught the cloud of LimaCharlie live.
 
 -adding a new sensor 
 1. Select Endpoint
@@ -41,17 +40,14 @@ It is a platform of SecOps based in cloud with the focus being EDX/XDR *detectio
 3. I choose: *Windows VM -Lab* but you can choose through your preference
 4. Create
 5. Select The key that you just make
-
-//add image of installation key 
+<img width="767" height="286" alt="64" src="https://github.com/user-attachments/assets/a9c10449-2b96-4224-9e37-4d5573516632" />
 
 -Installing a Sensor or Endpoint
-//Add Image
-
 Waiting for new sensors. 
 -> configure the Virtual machines, and install the EDR of LimaCharlie in the windows system. 
 
-
 -Windows EDR - Seonsors, monitoring and rules of defense.
+<img width="895" height="676" alt="63" src="https://github.com/user-attachments/assets/8508d825-673b-4003-8794-e438b1241fe5" />
 
 open CMD and execute both those commands:
 - cd C:\Users\Administrator\Downloads 
@@ -62,30 +58,23 @@ will POP *connection acquired* of cmd and Lima charlie
 
 -Artifact Colletion:
       They are records of events and data collected from endpoints, networks, and other sources of threat analysis and response. These artifacts can be used for forensic investigation.
+<img width="1574" height="475" alt="60" src="https://github.com/user-attachments/assets/9beb494b-d7fe-495f-b23e-166f97c87565" />
 
-<add image>
 
 name: windows-sysmon-logs 
 Pattern: well://Microsoft-Windows-Sysmon/Operational:*
 Retention Period: 10 Days
 Platform: Windows
+<img width="865" height="686" alt="58" src="https://github.com/user-attachments/assets/5e3ada87-9de4-4406-933a-5485c44b3d28" />
 
-<add image>
 
 -Extensions *ext-sigma*
 Sigma is a detection rule format, enabling rules to identify malicious behavior.
-
-<add image>
-
--Configuring the Virtual Machine (Linux)
-
-<add image>
-      
+<b>Configuring the Virtual Machine (Linux)</b>
 sudo su – enable the device as superuser.
-
 systemctl status sliver – check if Sliver is active.
+<img width="1573" height="777" alt="57" src="https://github.com/user-attachments/assets/e2be558f-9fcf-45ba-b561-eabf8223b2ab" />
 
-<add image>
 
 – Sliver
 Sliver is an open-source command-and-control (C2) framework developed by BishopFox, designed for Red Team operations, penetration testing, and adversary simulation. It serves as a modern alternative to tools such as Cobalt Strike and Metasploit, offering support for multiple platforms and secure communication.
