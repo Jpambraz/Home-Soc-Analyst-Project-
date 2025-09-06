@@ -29,12 +29,11 @@ It is a platform of SecOps based in cloud with the focus being EDX/XDR *detectio
 -Name: it can be any but i choose *Home Soc Analyst*
 -Data Residency Region: Closest avaiable  
 -Template: No pre-configuration *but you can customize one for different purpouse*
-
-*adicionar imagem do criando organização
+<img width="612" height="562" alt="65" src="https://github.com/user-attachments/assets/03c441c0-0509-4a66-a805-9c0772ac45ce" />
 
 -Sensors 
 -Main fonts of receiving data on LimaCharlie, operating through many plataforms that are compatible and sending events in JSON throught the cloud of LimaCharlie live. (Change Later).
-*adicionar imagem do sensores
+<img width="895" height="676" alt="63" src="https://github.com/user-attachments/assets/8508d825-673b-4003-8794-e438b1241fe5" />
 
 -adding a new sensor 
 1. Select Endpoint
