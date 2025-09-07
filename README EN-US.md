@@ -65,7 +65,7 @@ name: windows-sysmon-logs
 Pattern: well://Microsoft-Windows-Sysmon/Operational:*
 Retention Period: 10 Days
 Platform: Windows
-<img width="865" height="686" alt="58" src="https://github.com/user-attachments/assets/5e3ada87-9de4-4406-933a-5485c44b3d28" />
+<img width="865" height="686" alt="58" src="https://github.com/user-attachments/assets/5e3ada87-9de4-4406-933a-5485c44b3d28"/>
 
 
 -Extensions *ext-sigma*
@@ -73,18 +73,17 @@ Sigma is a detection rule format, enabling rules to identify malicious behavior.
 <b>Configuring the Virtual Machine (Linux)</b>
 sudo su – enable the device as superuser.
 systemctl status sliver – check if Sliver is active.
-<img width="1573" height="777" alt="57" src="https://github.com/user-attachments/assets/e2be558f-9fcf-45ba-b561-eabf8223b2ab" />
+<img width="1573" height="777" alt="57" src="https://github.com/user-attachments/assets/e2be558f-9fcf-45ba-b561-eabf8223b2ab"/>
 
 
 – Sliver
 Sliver is an open-source command-and-control (C2) framework developed by BishopFox, designed for Red Team operations, penetration testing, and adversary simulation. It serves as a modern alternative to tools such as Cobalt Strike and Metasploit, offering support for multiple platforms and secure communication.
 Here’s the translation:
 
-<add image>
-
 http – check if the machine is “listening” for possible connections.
 
 jobs – check if the machine has any active processes.
+<img width="659" height="499" alt="54" src="https://github.com/user-attachments/assets/16b29095-0892-4b4c-9a5d-242b4f298086" />
 
 Generating our C2 implant
 It is a payload that enables attackers to remotely control a compromised device, through C2 (command and control).
